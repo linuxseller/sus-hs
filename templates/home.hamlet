@@ -1,0 +1,10 @@
+<div class="header">
+    <a haref="/">sus-hs</a>
+<div>
+    <table style="width:100%">
+        <tr>
+            <th>Select Room
+            <th>Rules
+        <tr>
+            <td>Rooms Placeholder
+            <td>Rules Placeholder

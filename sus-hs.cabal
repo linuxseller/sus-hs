@@ -1,0 +1,31 @@
+cabal-version:      2.4
+name:               sus-hs
+version:            0.1.0.0
+
+synopsis: web game about being not sus
+
+description: web game about being not suspicious
+
+license: MIT
+
+author: Alexandr Iurchenko (linuxseller)
+
+extra-source-files: CHANGELOG.md
+
+executable sus-hs
+    main-is: Main.hs
+    default-extensions: ViewPatterns
+    other-modules: Import
+    build-depends:  base ^>=4.15.1.0,
+                    yesod ==1.6.*,
+                    yesod-core,
+                    shakespeare,
+                    blaze-html,
+                    text,
+                    sqlite-simple,
+                    template-haskell,
+                    data-default,
+                    clientsession,
+                    containers
+    hs-source-dirs:   app
+    default-language: Haskell2010

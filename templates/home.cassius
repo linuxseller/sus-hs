@@ -1,0 +1,24 @@
+body
+    background-color: #303030;
+    color: white;
+    font-size: 150%;
+
+a:link
+    color: #59C0DC;
+
+a:visited
+    color: #ced0ce;
+.header a:link
+    color: #6E44FF;
+
+.header a:visited
+    color: #6E44FF;
+
+.header
+    border-radius: 5px;
+    padding: 5px;
+    text-align: left;
+    background: #b1b6a6;
+    color: #6E44FF;
+    font-size: 5vh;
+
